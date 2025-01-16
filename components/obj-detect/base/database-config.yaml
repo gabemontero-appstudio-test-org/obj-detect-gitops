@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: obj-detect-database-config
+data:
+  VECTORDB_HOST: "obj-detect-database"
+  VECTORDB_PORT: ""
